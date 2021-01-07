@@ -10,3 +10,7 @@ jobs:
 
       - name: "hello-action"
         uses: ./.github/actions/hello-world
+        with:
+          first-greeting: Cheese
+          second-greeting: second cheese
+          third-greeting: nacho cheese
